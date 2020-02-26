@@ -8,7 +8,7 @@
     "start": "npm run http > /dev/null | npm run wds"
   },
   "author": "Maxim Kulikov",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "http-server": "^0.11.1",
     "webpack": "^4.41.6",
