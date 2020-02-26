@@ -14,8 +14,8 @@ This repository is a reproduction of the issue https://github.com/webpack/webpac
 
 ### Expected
 
-- HMR successfully applies hot update (update shuold be loaded from url `http://localhost:8080/5cc71fea9aecb707e3fc.hot-update.json`)
+- HMR successfully applies hot update (update should be loaded from url `http://localhost:8080/webpack-dev-server-root/a72041d1fbecb410e2ef.hot-update.json`)
 
 ### Actual
 
-- Error `GET http://localhost:9876/www/5cc71fea9aecb707e3fc.hot-update.json 404 (Not Found)` occurs and ***full reload*** (instead of hot reload) is triggered.
+- Error `GET http://localhost:9876/www/a72041d1fbecb410e2ef.hot-update.json 404 (Not Found)` occurs and ***full reload*** (instead of hot reload) is triggered.
